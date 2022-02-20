@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/myDrugs/static/css/main.073c9b0a.css",
-    "main.js": "/myDrugs/static/js/main.2bab6280.js",
-    "static/js/787.b678da9a.chunk.js": "/myDrugs/static/js/787.b678da9a.chunk.js",
-    "static/media/logo.svg": "/myDrugs/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/myDrugs/static/css/main.98a343cb.css",
+    "main.js": "/myDrugs/static/js/main.dc21729c.js",
+    "static/media/hourGlass_2.gif": "/myDrugs/static/media/hourGlass_2.90e5236ea8c25dc192e4.gif",
     "index.html": "/myDrugs/index.html",
-    "main.073c9b0a.css.map": "/myDrugs/static/css/main.073c9b0a.css.map",
-    "main.2bab6280.js.map": "/myDrugs/static/js/main.2bab6280.js.map",
-    "787.b678da9a.chunk.js.map": "/myDrugs/static/js/787.b678da9a.chunk.js.map"
+    "main.98a343cb.css.map": "/myDrugs/static/css/main.98a343cb.css.map",
+    "main.dc21729c.js.map": "/myDrugs/static/js/main.dc21729c.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.2bab6280.js"
+    "static/css/main.98a343cb.css",
+    "static/js/main.dc21729c.js"
   ]
 }
