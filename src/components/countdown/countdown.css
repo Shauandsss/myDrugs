@@ -1,0 +1,63 @@
+* {
+    font-weight: bold;
+    /*  We need to find a similar font */
+     
+    
+}
+
+.hourglass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hourglass img {
+    height: 90%;
+    mix-blend-mode: lighten;
+}
+
+
+.container{
+    color: white;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+}
+
+.hourglass {
+    width: 40%;
+}
+
+.texts{
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.texts h2 {
+    font-size: calc(2vw + 2vh + 2vmin);
+}
+
+.texts h1 {
+    font-size: calc(3vw + 4vh + 3.5vmin);
+    line-height: 1vh;
+    margin-top: -1vh;
+}
+
+.countDown {
+    margin-top: 2vw;
+    font-size: calc(3vw + 3vh + 3vmin);
+    font-weight: bold;
+}
+
+.countDown-label {
+    display: flex;
+    font-size: calc(0.7vw + 0.7vh + 0.7vmin);
+    justify-content: space-between;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
