@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/myDrugs/static/css/main.e0c4f164.css",
-    "main.js": "/myDrugs/static/js/main.6678d014.js",
+    "main.css": "/myDrugs/static/css/main.e8e7ed86.css",
+    "main.js": "/myDrugs/static/js/main.c34cf125.js",
     "static/media/hourGlass_2.gif": "/myDrugs/static/media/hourGlass_2.90e5236ea8c25dc192e4.gif",
     "index.html": "/myDrugs/index.html",
-    "main.e0c4f164.css.map": "/myDrugs/static/css/main.e0c4f164.css.map",
-    "main.6678d014.js.map": "/myDrugs/static/js/main.6678d014.js.map"
+    "main.e8e7ed86.css.map": "/myDrugs/static/css/main.e8e7ed86.css.map",
+    "main.c34cf125.js.map": "/myDrugs/static/js/main.c34cf125.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0c4f164.css",
-    "static/js/main.6678d014.js"
+    "static/css/main.e8e7ed86.css",
+    "static/js/main.c34cf125.js"
   ]
 }
