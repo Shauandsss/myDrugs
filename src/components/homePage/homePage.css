@@ -1,4 +1,71 @@
 .Homepage-main {
+  margin-top: 20px;
   width: 100%;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Homepage-top {
+  width: 50%;
+}
+
+.Homepage-top div {
+  display: flex;
+}
+
+.Homepage-topSub {
+  width: 100%;
+}
+
+.HomePage-TopSpacer {
+}
+
+.Homepage-TitleTop {
+  font-size: 18px;
+  font-weight: bold;
+  width: 60%;
+}
+
+.Homepage-listTop {
+  justify-content: space-between;
+  width: 40%;
+}
+
+.Homepage-listTop-Button {
+  background-color: #79b0c5;
+  border-radius: 10px;
+  padding: 3px 10px 3px 10px;
+}
+
+.Bored {
+  color: gray;
+}
+
+.Homepage-WhiteLine {
+  margin-top: 10px;
+  background-color: grey;
+  width: 100%;
+  height: 2px;
+}
+
+/* Top end / Start Mid */
+
+.HomePage-Mid-Main {
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.HomePage-Mid-Itens {
+  font-size: 48px;
+  margin: 15px 0 15px 0;
+}
+
+.HomePage-Mid-Title {
+  font-size: 24px;
+}
+
+.HomePage-Mid-SubTitle {
 }
