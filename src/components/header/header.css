@@ -1,0 +1,49 @@
+.main-Header {
+  color: white;
+  width: 100vw;
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.main-Header ul {
+  list-style: none;
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding-inline-start: 0px;
+}
+
+.main-Header li {
+}
+
+.Header-itens {
+  align-items: center;
+  width: 60vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.main-Header button {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 3px 10px 3px 10px;
+}
+
+.logo {
+  width: 21px;
+  height: 17px;
+}
+
+.Header-searchIcon {
+  margin-right: 5%;
+}
