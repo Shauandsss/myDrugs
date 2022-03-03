@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import './countdown.css'
 import hourGlass from './hourGlass_2.gif'
+import { Link } from "react-router-dom";
+
 
 export default () => {
 
@@ -63,6 +65,11 @@ export default () => {
                     Coming Soon!
                 </h2>
             </div>
+            <Link to='/myDrugs/home' style={{fontSize: '8px',
+                        color: 'grey',
+                        marginTop: '5px'}}> 
+                go to homepage
+            </Link>
         </div>
     )
 }
