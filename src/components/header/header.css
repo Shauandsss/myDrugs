@@ -1,11 +1,12 @@
 .main-Header {
   color: white;
-  width: 100vw;
+  width: 99vw;
   height: 7vh;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
+  background-color: #1e2026;
 }
 
 .main-Header ul {

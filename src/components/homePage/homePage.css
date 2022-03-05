@@ -6,6 +6,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  background-color: #1e2026;
 }
 
 .Homepage-top {
@@ -68,4 +69,79 @@
 }
 
 .HomePage-Mid-SubTitle {
+}
+
+.imgCem {
+  mix-blend-mode: lighten;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.HomePage-Mid-Titles {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.HomePage-Mid-Titles-1,
+.HomePage-Mid-Titles-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: calc(0.5vw + 0.7vh + 1vmin);
+  width: 40%;
+  max-width: 35%;
+  font-weight: bold;
+  text-align: left;
+}
+
+.HomePage-Mid-Titles-1 div,
+.HomePage-Mid-Titles-2 div {
+  padding-top: 25px;
+  margin-bottom: 60px;
+  border-top: 1px solid grey;
+  max-width: 60%;
+  min-width: 60%;
+}
+
+.HomePage-Mid-Titles-1 {
+}
+
+.HomePage-Mid-Titles-2 {
+}
+
+.HomePage-Mid-White {
+  background-color: #cfcac6 !important;
+  height: 100vh;
+  width: 100%;
+  color: black;
+  line-height: 30px;
+}
+
+.HomePage-Mid-White-Title {
+  margin-top: 50px;
+  font-size: calc(1vw + 1vh + 0.5vmin);
+  font-weight: bold;
+}
+
+.HomePage-Mid-White-Subtitle {
+  margin-top: 15px;
+  font-size: calc(0.5vw + 0.4vh + 0.5vmin);
+  line-height: 20px;
+}
+
+.HomePage-Mid-White-ShopNow {
+  color: rgb(0, 72, 255);
 }
